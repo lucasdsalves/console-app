@@ -10,12 +10,12 @@ This is a .NET 6 console app template ready to run.
 * <i>Prerequisites: .NET 6 Runtime, Visual Studio / Visual Studio Code </i><br />
 
 # Project structure
-ConsoleApp: the console app itself, with DI config, Program and hosted service;
-Application: services and interfaces;
-Data: Data and core entities persistence layer;
-Tests: Tests layer.
+<b>ConsoleApp:</b> the console app itself, with DI config, Program and hosted service; <br />
+<b>Application:</b> services and interfaces; <br />
+<b>Data:</b> Data and core entities persistence layer; <br />
+<b>Tests:</b> Tests layer.
   
-# For someday reminder: Example of project creation using CLI (folders src and tests)
+### For someday reminder: Example of project creation using CLI (folders src and tests)
 ```
 dotnet new sln
 dotnet new classlib -o src/TemplateApp.Domain
